@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vis-a-vis": {
+      "type": "http",
+      "url": "http://localhost:4832/mcp"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "vis-a-vis-v2-local",
+  "interface": {
+    "displayName": "Local vis-a-vis v2"
+  },
+  "plugins": [
+    {
+      "name": "vis-a-vis",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vis-a-vis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

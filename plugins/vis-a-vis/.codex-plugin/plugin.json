@@ -1,0 +1,35 @@
+{
+  "name": "vis-a-vis",
+  "version": "1.0.0+codex.20260929181739",
+  "description": "Visualise Agent, Visualise! (vis-a-vis) - a local diagram studio powered by Excalidraw with an MCP interface, so an agent can read and edit the live diagram the user has open.",
+  "author": {
+    "name": "omp"
+  },
+  "license": "MIT",
+  "keywords": [
+    "diagram",
+    "excalidraw",
+    "mcp",
+    "visualization",
+    "whiteboard",
+    "agent",
+    "local-first"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "vis-a-vis",
+    "shortDescription": "Live Excalidraw diagram studio",
+    "longDescription": "Visualise Agent, Visualise! (vis-a-vis) - a local diagram studio powered by Excalidraw with an MCP interface, so an agent can read and edit the live diagram the user has open.",
+    "developerName": "omp",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Create a diagram in vis-a-vis"
+    ]
+  }
+}

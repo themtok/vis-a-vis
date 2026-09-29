@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "vis-a-vis": {
+      "type": "streamable-http",
+      "url": "http://localhost:4832/mcp"
+    }
+  }
+}

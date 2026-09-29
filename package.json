@@ -1,0 +1,33 @@
+{
+  "name": "vis-a-vis",
+  "version": "1.0.0",
+  "description": "Visualise Agent, Visualise! (vis-a-vis) - local diagram studio powered by Excalidraw with an MCP interface.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node server/index.js",
+    "start": "node server/index.js",
+    "build": "node build.mjs",
+    "package": "node build.mjs --standalone"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "express": "^4.21.2",
+    "unique-names-generator": "^4.7.1",
+    "ws": "^8.18.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@excalidraw/excalidraw": "^0.18.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@yao-pkg/pkg": "^6.22.0",
+    "esbuild": "^0.25.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^6.3.5"
+  }
+}

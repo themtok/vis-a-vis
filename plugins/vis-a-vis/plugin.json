@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vis-a-vis",
+  "version": "1.0.0+codex.20260929181739",
+  "description": "Visualise Agent, Visualise! (vis-a-vis) - a local diagram studio powered by Excalidraw with an MCP interface, so an agent can read and edit the live diagram the user has open.",
+  "author": {
+    "name": "omp"
+  },
+  "license": "MIT",
+  "keywords": [
+    "diagram",
+    "excalidraw",
+    "mcp",
+    "visualization",
+    "whiteboard",
+    "agent",
+    "local-first"
+  ],
+  "extensions": {
+    "com.agentinc": {
+      "defaultPort": 4832,
+      "mcpPath": "/mcp"
+    }
+  }
+}
